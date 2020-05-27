@@ -9,8 +9,9 @@ const Quotes = ({ getNumber, number, isFetching, error }) => {
   } else {
     return (
       <div>
-        <h2>Year History:<br/> {number}</h2>
-        <button onClick={getNumber}>Load New Cat Fact</button>
+        <h2>Year History:</h2>
+        <p className='Year'>{number}</p>
+        <button onClick={getNumber} className='button'>Load New Year Fact</button>
       </div>
     );
   }

@@ -2,3 +2,14 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.Year {
+  font-size: xx-large;
+  color: orangered
+}
+
+.button {
+  border: 1px dashed orange;
+  border-radius: 15px;
+  padding: 2%;
+}
